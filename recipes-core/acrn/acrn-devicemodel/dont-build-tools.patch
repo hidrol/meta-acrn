@@ -1,0 +1,12 @@
+No need to build the tools as we can use the libraries already installed.
+
+Upstream-Status: Inappropriate
+Signed-off-by: Ross Burton <ross.burton@intel.com>
+
+diff --git a/Makefile b/Makefile
+index f0bfd2d3..2440070c 100644
+--- a/Makefile
++++ b/Makefile
+@@ -45 +45 @@ sbl-hypervisor:
+-devicemodel: tools
++devicemodel:
